@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using TriInspector;
 
-namespace Lumos.DOTween
+namespace LumosLib.DOTween
 {
     [CreateAssetMenu(fileName = "ScaleTweenPreset", menuName = "SO/Tween Preset/Scale", order = int.MinValue)]
     public class ScaleTweenPreset : BaseTweenPreset

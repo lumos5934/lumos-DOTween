@@ -1,7 +1,7 @@
 ﻿using TriInspector;
 using UnityEngine;
 
-namespace Lumos.DOTween
+namespace LumosLib.DOTween
 {
     [CreateAssetMenu(fileName = "FadeTweenPreset", menuName = "SO/Tween Preset/Fade", order = int.MinValue)]
     public class FadeTweenPreset : BaseTweenPreset
