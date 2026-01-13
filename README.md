@@ -1,4 +1,4 @@
-# ✨lumos-library-core
+# ✨lumos-DOTween
 DOTween 에셋에 대한 활용 편의 패키지 
 
 <br>
