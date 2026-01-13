@@ -11,4 +11,4 @@ DOTween 에셋에 대한 활용 편의 패키지
 <br>
 
 ## ℹ️기능
-* [ DOTween ](https://www.notion.so/DOTween-2df3966a742c807cb6cce392acfc2e2d?source=copy_link)
+* [ Tween Animator ](https://www.notion.so/DOTween-2df3966a742c807cb6cce392acfc2e2d?source=copy_link)
