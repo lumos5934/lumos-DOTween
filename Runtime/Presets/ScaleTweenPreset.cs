@@ -6,10 +6,6 @@ namespace LumosLib.DOTween
     [CreateAssetMenu(fileName = "ScaleTweenPreset", menuName = "[ LumosLib ]/Scriptable Objects/Tween Preset/Scale", order = int.MinValue)]
     public class ScaleTweenPreset : BaseTweenPreset
     {
-        #region >--------------------------------------------------- FIELD
-
-
-        
         [PropertySpace(20f)]
         [Title("Scale")]
         
@@ -18,25 +14,9 @@ namespace LumosLib.DOTween
         [SerializeField] private bool _useInitScale;
         [SerializeField, ShowIf("_useInitScale")] private Vector3 _initScale;
         
-        
-        #endregion
-        #region >--------------------------------------------------- GET
        
-        public Vector3 GetScale()
-        {
-            return _scale;
-        }
-
-        public bool GetUseInitScale()
-        {
-            return _useInitScale;
-        }
-
-        public Vector3 GetInitScale()
-        {
-            return _initScale;
-        }
-
-        #endregion
+        public Vector3 GetScale() => _scale;
+        public bool GetUseInitScale() => _useInitScale;
+        public Vector3 GetInitScale() => _initScale;
     }
 }

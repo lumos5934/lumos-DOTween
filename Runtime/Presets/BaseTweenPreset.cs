@@ -6,9 +6,6 @@ namespace LumosLib.DOTween
 {
     public abstract class BaseTweenPreset : ScriptableObject
     {
-        #region >--------------------------------------------------- FIELD
-
-        
         [Title("Base")]
         [SerializeField] private Ease _ease;
         [SerializeField] private float _duration;
@@ -21,9 +18,6 @@ namespace LumosLib.DOTween
         [SerializeField, ShowIf("_useLoop")] private LoopType _loopType;
         [SerializeField, ShowIf("_useLoop")] private int _loopCount;
         
-
-        #endregion
-        #region >--------------------------------------------------- GET
 
         public Ease GetEase()
         {
@@ -51,7 +45,5 @@ namespace LumosLib.DOTween
                 ? _duration * Random.Range(1 - _durationRandomFactor, 1 + _durationRandomFactor) 
                 : _duration;
         }
-
-        #endregion
     }
 }

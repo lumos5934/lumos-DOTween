@@ -7,19 +7,17 @@ namespace LumosLib.DOTween
 {
     public abstract class BaseTweenPresetAnimator<T> : MonoBehaviour where T : BaseTweenPreset
     {
-        #region >--------------------------------------------------- FIELD
-
         [Title("Base")]
-        
-        [TableList(Draggable = true, HideAddButton = false, HideRemoveButton = false, AlwaysExpanded = false)]
-        [SerializeField] protected List<TweenPresetEntry<T>> _entries;
-
+        [SerializeField,
+         TableList(Draggable = true, 
+            HideAddButton = false, 
+            HideRemoveButton = false, 
+            AlwaysExpanded = false)]
+        protected List<TweenPresetEntry<T>> _entries;
         protected Tweener _tweener;
         
         private Dictionary<string, TweenPresetEntry<T>> _entryDict = new();
 
-        #endregion
-        #region >--------------------------------------------------- UNITY
 
         protected virtual void Awake()
         {
@@ -29,16 +27,10 @@ namespace LumosLib.DOTween
             }
         }
 
-        #endregion
-        #region >--------------------------------------------------- Play
-
         public void Play(string key)
         {
             GetTweener(key).Play();
         }
-        
-        #endregion
-        #region >--------------------------------------------------- GET
 
         public abstract Tweener GetTweener(string key);
         
@@ -65,7 +57,5 @@ namespace LumosLib.DOTween
             
             return _tweener.SetEase(preset.GetEase()).Pause();
         }
-
-        #endregion
     }
 }
