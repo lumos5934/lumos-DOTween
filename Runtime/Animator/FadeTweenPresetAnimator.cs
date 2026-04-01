@@ -3,7 +3,7 @@ using TriInspector;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace LumosLib.DOTween
+namespace LLib.DOTween
 {
     public class FadeTweenPresetAnimator : BaseTweenPresetAnimator<FadeTweenPreset>
     {

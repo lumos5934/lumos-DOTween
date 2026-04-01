@@ -2,7 +2,7 @@
 using TriInspector;
 using UnityEngine;
 
-namespace LumosLib.DOTween
+namespace LLib.DOTween
 {
     [Serializable]
     public class TweenPresetEntry<T> where T : BaseTweenPreset

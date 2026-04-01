@@ -3,7 +3,7 @@ using DG.Tweening;
 using TriInspector;
 using UnityEngine;
 
-namespace LumosLib.DOTween
+namespace LLib.DOTween
 {
     public abstract class BaseTweenPresetAnimator<T> : MonoBehaviour where T : BaseTweenPreset
     {
