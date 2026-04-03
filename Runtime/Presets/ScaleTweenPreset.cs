@@ -3,7 +3,7 @@ using TriInspector;
 
 namespace LLib.DOTween
 {
-    [CreateAssetMenu(fileName = "ScaleTweenPreset", menuName = "[ LumosLib ]/Scriptable Objects/Tween Preset/Scale", order = int.MinValue)]
+    [CreateAssetMenu(fileName = "ScaleTweenPreset", menuName = "[ LLib ]/Scriptable Objects/Tween Preset/Scale", order = int.MinValue)]
     public class ScaleTweenPreset : BaseTweenPreset
     {
         [PropertySpace(20f)]

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace LLib.DOTween
 {
-    [CreateAssetMenu(fileName = "FadeTweenPreset", menuName = "[ LumosLib ]/Scriptable Objects/Tween Preset/Fade", order = int.MinValue)]
+    [CreateAssetMenu(fileName = "FadeTweenPreset", menuName = "[ LLib ]/Scriptable Objects/Tween Preset/Fade", order = int.MinValue)]
     public class FadeTweenPreset : BaseTweenPreset
     {
         [Title("Fade")] 
