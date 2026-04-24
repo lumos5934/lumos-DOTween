@@ -1,12 +1,11 @@
 {
-  "name": "com.lumos.dotween",
+  "name": "com.llib.dotween",
   "version": "1.0.0",
-  "displayName": "Lumos DOTween",
+  "displayName": "LLib DOTween",
   "description": "description",
-  "unity": "2021.2",
+  "unity": "2022.0",
   "author": {
-    "name": "Lumos",
-    "email": "lumos5934@gmail.com",
-    "url": ""
+    "name": "LUMOS",
+    "email": "lumos5934@gmail.com"
   }
 }
