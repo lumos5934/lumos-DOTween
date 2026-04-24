@@ -1,5 +1,5 @@
 ### ℹ️의존성
-* [ lumos-core ](https://github.com/lumos5934/lumos-core)
+* [ LLib ](https://github.com/lumos5934/lumos-core)
 * [ DOTween ](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676?locale=ko-KR&srsltid=AfmBOorERKqVIWHnYtX-Ib3WRvr0KqT-k48G_H4SXEk8uU_Eczqg4U9v)
 
 
